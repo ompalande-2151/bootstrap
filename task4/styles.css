@@ -1,0 +1,27 @@
+/* Custom styles for offset and alignment */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background for contrast */
+  }
+  
+  .my-grid {
+    margin-top: 50px; /* Add spacing from the top */
+  }
+  
+  h3 {
+    font-size: 1.5rem; /* Increase heading size */
+    margin-bottom: 15px; /* Add spacing below headings */
+    text-transform: uppercase; /* Uppercase headings for emphasis */
+  }
+  
+  p {
+    font-size: 1rem; /* Standard font size for paragraphs */
+    line-height: 1.5; /* Improve readability */
+  }
+  
+  .bg-primary, .bg-success {
+    border-radius: 8px; /* Add rounded corners */
+    border: 1px solid #fff; /* Add white border for subtle separation */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+  }
+  

@@ -1,0 +1,25 @@
+/* Custom styles for the grid layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background for contrast */
+  }
+  
+  .my-grid {
+    margin-top: 50px; /* Add space from the top */
+  }
+  
+  .custom-column {
+    background-color: #481d0c; /* Primary blue */
+    color: white; /* White text for contrast */
+    text-align: center; /* Center text horizontally */
+    padding: 20px; /* Add vertical and horizontal padding */
+    border: 1px solid #381507; /* Add a border for better visibility */
+    border-radius: 5px; /* Rounded corners */
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .custom-column:hover {
+    transform: scale(1.05); /* Slightly enlarge column on hover */
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

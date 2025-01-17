@@ -1,0 +1,27 @@
+/* Custom styles for the nested grid system */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background for contrast */
+  }
+  
+  .my-grid {
+    margin-top: 50px; /* Add spacing from the top */
+  }
+  
+  .main-column {
+    border: 2px solid #fff; /* Add a border to main columns for visibility */
+  }
+  
+  .nested-column {
+    border: 1px solid #000; /* Add a border to nested columns for better distinction */
+  }
+  
+  .text-center {
+    text-transform: uppercase; /* Make text uppercase for styling */
+    font-weight: bold; /* Bold text for emphasis */
+  }
+  
+  .py-2, .py-3 {
+    border-radius: 5px; /* Add rounded corners for a smooth look */
+  }
+  

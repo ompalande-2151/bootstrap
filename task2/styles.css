@@ -1,0 +1,38 @@
+/* Custom styles for responsive columns */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+  }
+  
+  .my-grid {
+    margin-top: 50px; /* Add space from the top */
+  }
+  
+  .custom-column {
+    background-color: #6c757d; /* Secondary gray */
+    color: white; /* White text for contrast */
+    text-align: center; /* Center text horizontally */
+    padding: 30px 10px; /* Add padding */
+    border: 1px solid #343a40; /* Add border for visibility */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth hover effect */
+  }
+
+  .custom-column h1{
+    color: rgba(198, 8, 8, 0.851);
+    text-transform: uppercase;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    padding: 10px;
+  }
+
+  .custom-column p{
+    color: #ffc107;
+  }
+  
+  .custom-column:hover {
+    background-color: #343a40; /* Darker gray on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
